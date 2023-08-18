@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Controle Despesas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Controle Despesas</h2>
+    <div class="container">
+      <h4>Saldo</h4>
+      <h1 id="balance">R$0.00</h1>git 
+      <div class="inc-exp-container">
+        <div>
+          <h4>Saldos</h4>
+          <p id="money-plus" class="money-plus">
+            +R$0.00
+          </p>
+        </div>
+        <div>
+          <h4>Gastos</h4>
+          <p id="money-minus" class="money-minus">
+            -R$0.00
+          </p>
+        </div>
+      </div>
+
+      <h3>Historico</h3>
+      <ul id="list" class="list">
+        <!-- <li class="minus">
+          Cash <span>-$400</span
+          ><button class="delete-btn">x</button>
+        </li> -->
+      </ul>
+      <h3>Adicionar Nova Transição</h3>
+      <form id="form">
+          <div class="form-control">
+              <label for="text">Descriçao</label>
+              <input type="text" id="text" placeholder="Enter Text...."/>
+          </div>
+          <div class="form-control">
+              <label for="amount">Valor<br> (Coloque valores Negativo ou positivo)</label>
+              <input type="number" id="amount" placeholder="Enter amount..."> 
+          </div>
+          <button class="btn">ADICIONAR</button>
+      </form>
+    </div>
+    <!-- JavaYscript Project  -->
+    <script src="script.js"></script>
+  </body>
+</html>
